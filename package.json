@@ -1,0 +1,14 @@
+{
+  "name": "s3todynamoservice",
+  "version": "1.0.0",
+  "description": "Simple service to transfer data from S3 to Dynamo",
+  "main": "handler.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.514.0"
+  }
+}

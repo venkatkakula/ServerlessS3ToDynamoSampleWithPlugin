@@ -9,7 +9,7 @@ const documentClient = new AWS.DynamoDB.DocumentClient();
 
 module.exports.postprocess = (event) => {
 
-	event.Records.forEach((record) => {
+  event.Records.forEach((record) => {
     let items = [];
     const s3ObjParams = {Bucket: record.s3.bucket.name, Key: record.s3.object.key};	
     const rl = readline.createInterface({
